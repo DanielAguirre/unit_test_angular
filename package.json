@@ -1,0 +1,19 @@
+{
+  "name": "unit_test_angular",
+  "version": "1.0.0",
+  "description": "\"Ejemplo de  codigo para el post de unit test en angular para software morelia\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielAguirre/unit_test_angular.git"
+  },
+  "author": "Daniel Alejandro Aguirre Linares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielAguirre/unit_test_angular/issues"
+  },
+  "homepage": "https://github.com/DanielAguirre/unit_test_angular"
+}
