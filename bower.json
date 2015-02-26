@@ -1,0 +1,16 @@
+{
+  "name": "unit_test_angular",
+  "version": "0.0.0",
+  "homepage": "https://github.com/DanielAguirre/unit_test_angular",
+  "authors": [
+    "DanielAguirre <danter1@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
