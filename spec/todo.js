@@ -1,7 +1,13 @@
+'use strict';
+
 describe('Estamos usando una  aplicacion para crear una lista de cosas por hacer',function(){
+	var scope = {};
 	
 	beforeEach(function(){
 		module('todo');
+		inject(function($controller){
+			$controller('TodoController',{$scope:scope});
+		});
 	});
 	
 	it('Dede de definir un objeto lista',function(){
