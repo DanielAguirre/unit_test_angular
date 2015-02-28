@@ -20,10 +20,12 @@ describe('Estamos usando una  aplicacion para crear una lista de cosas por hacer
 
 	it('El primer elemento de la lista debe de ser de tipo String',function() {
 		expect(typeof(scope.list[0])).toBe('string');
-	});
+	});	
 
-	it('El primer elemento de la lista debe de ser de tipo String',function() {
-		expect(typeof(scope.list[0])).toBe('string');
-	});
+	it("debe agregar un elemento al final de la lista",function(){
+		scope.addItem('Paris')		
+		var	lastIndexOfList	=	scope.list.length-1;
+		expect(scope.list[lastIndexOfList]).toEqual('Paris');
+	})
 
 });
